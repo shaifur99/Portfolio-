@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .profile-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+header .social-links a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header .social-links a:hover {
+    color: #ffffff;
+}
+
+/* About, Skills, Experience, Contact, Footer */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.skill-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.skill-item {
+    text-align: center;
+    width: 30%;
+}
+
+.skill-item i {
+    font-size: 2.5em;
+    color: #007BFF;
+}
+
+.skill-item h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.education-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.education-item p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Contact and Footer */
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #afb56f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
